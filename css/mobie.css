@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+  /*ảnh banner*/
+  #banner {
+    height: 300px;
+  }
+  /*Phần navbar*/
+  .link-certificate,
+  .link-info,
+  .link-project,
+  .link-background {
+    border: none;
+  }
+
+  #nav-bar nav {
+    display: block;
+  }
+  #nav-bar a {
+    display: block;
+    text-align: left;
+  }
+  #nav-bar .link-name {
+    display: none;
+  }
+  /*Phần thông tin cá nhân*/
+  .icon-contact {
+    margin-bottom: 15px;
+  }
+  #about {
+    padding: 15px;
+  }
+
+  /*Phần kinh nghiệm*/
+  .job-information1 h1 {
+    font-size: 40px;
+  }
+  .ic-toolbox,
+  .ic-pencil,
+  .ic-telescope,
+  .ic-mic,
+  .ic-tools-2 {
+    font-size: 60px;
+  }
+
+  /*Phần chứng chỉ*/
+
+  #certificate .ab {
+    padding: 0px !important;
+  }
+  #certificate h1 {
+    padding-top: 0px;
+  }
+  .certificate-2 img {
+    padding-left: 0px;
+    border: none;
+  }
+  #certificate .ab::after {
+    border: none;
+  }
+  .certificate-1,
+  .certificate-2,
+  .certificate-3 {
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #d6c08d;
+  }
+  #certificate img {
+    width: auto;
+    height: auto;
+  }
+  .cf-info {
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 1.7;
+  }
+
+  /*Phần dự án*/
+  .time {
+    display: block;
+  }
+  .icc {
+    display: block;
+  }
+  .year {
+    width: 50px;
+    text-align: center;
+  }
+  .icc div {
+    margin-bottom: 10px;
+  }
+
+  /* phần trang chi tiết dự án*/
+  .block {
+    display: block !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+  }
+  .flag,
+  .user,
+  .question {
+    text-align: center;
+  }
+  .block div {
+    margin-left: 10px !important;
+  }
+}
